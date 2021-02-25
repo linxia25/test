@@ -1,0 +1,38 @@
+/* 
+Include any CSS you need to:
+- limit the max width of the gallery
+- layout the images responsively, centering the gallery on the page
+- preserve the aspect ratio of each image
+*/
+
+/* resets */
+* {
+  box-sizing: border-box;
+	margin: 0;
+}
+
+/* make it pretty*/
+
+.gallery {
+  /*layout the images responsively, centering the gallery on the page;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  
+  justify-content: center;
+
+  /*limit the max width of the gallery;*/
+  max-width: 1600px;
+}
+
+.card {
+  text-align: center;
+
+  margin-bottom: 10ch;
+}
+
+.card img {
+  align-self: center;
+
+  margin-bottom: 10ch;
+  margin-top: 10ch;
+}
