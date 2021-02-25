@@ -1,15 +1,13 @@
-import { furnitures } from './furnitures.js';
+import { furnitures } from "./furnitures.mjs"; 
 
 let output = '';
 
 const gallery = document.querySelector('.gallery');
 
-furnitures.forEach(function(animal) {
-
-console.log(animal);
+furnitures.forEach(function(furnitures) {
   
 output +=
-    `<figure class="card">
+    `<figure>
       <img src="images/${furnitures.title}.jpg" alt="pexels:${furnitures.title}" width='${furnitures.width}'>
       <figcaption>
         <h1>${furnitures.title}</h1>
@@ -18,4 +16,5 @@ output +=
       </figcaption>
     </figure>`;
 });
+
 gallery.innerHTML = output;

@@ -5,7 +5,7 @@ export const furnitures = [
       title:      'chair',
       description:'Two Assorted-color Padded Chairs Near Side Table',
       width:      '300px',
-      imgURL:     https://www.pexels.com/photo/two-assorted-color-padded-chairs-near-side-table-1350789/
+      imgURL:     'https://www.pexels.com/photo/two-assorted-color-padded-chairs-near-side-table-1350789/',
       credit:     'Eric Montanah',
     },
 
@@ -14,7 +14,7 @@ export const furnitures = [
       title:      'sofa',
       description:'2-seat Orange Leather Sofa Beside Wall',
       width:      '300px',
-      imgURL:     https://www.pexels.com/photo/2-seat-orange-leather-sofa-beside-wall-1866149/
+      imgURL:     'https://www.pexels.com/photo/2-seat-orange-leather-sofa-beside-wall-1866149/',
       credit:     'Martin Péchy',
     },
 
@@ -23,7 +23,7 @@ export const furnitures = [
       title:      'shelves',
       description:'Brown, White, and Blue Wooden Board',
       width:      '300px',
-      imgURL:     https://www.pexels.com/photo/brown-white-and-blue-wooden-board-245208/
+      imgURL:     'https://www.pexels.com/photo/brown-white-and-blue-wooden-board-245208/',
       credit:     'ATBO',
     },
 
